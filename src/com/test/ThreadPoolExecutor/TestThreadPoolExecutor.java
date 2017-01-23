@@ -1,13 +1,8 @@
 package com.test.ThreadPoolExecutor;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.Executor;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
-import java.util.concurrent.ThreadPoolExecutor.DiscardPolicy;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.ThreadPoolExecutor.AbortPolicy;
 
 public class TestThreadPoolExecutor {
 
